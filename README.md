@@ -26,7 +26,7 @@ az storage account keys list -n batchrenderingstorage -g azurebatchrendering-rg
 Store output of this commands to use in automation script.
 
 ## Automate Azure Bacth pool, job and task creation
-We will use Python with Azure Batch SDK for Python to automate Azure Bacth pool creation. So we use Ubuntu Server 16.04-LTS as a base and add startup task, based on script from https://github.com/stas-pavlov/azureglxrendering. You can find in script folder of the repository.
+We will use Python with Azure Batch SDK for Python to automate Azure Bacth pool creation. So we use Ubuntu Server 16.04-LTS as a base and add startup task, based on script from https://github.com/stas-pavlov/azureglxrendering. You can find in scripts folder of the repository (init-vm-glx-rendering.sh).
 ```
 new_pool = batch.models.PoolAddParameter(
         id=pool_id,
