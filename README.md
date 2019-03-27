@@ -1,4 +1,4 @@
-# OpenGL/GLX rendering in Azure Batch using containers
+# GPU Accelerated OpenGL/GLX rendering in Azure Batch using containers
 
 ## Intro
 Here https://github.com/stas-pavlov/azureglxrendering we've created Ububntu VM wich can run NVIDIA containers to render OpenGL on host X server. But normally you would like to automate VMs and rendering task management to optimize costs and minimize manual work. Good news, that there is a good solution for those task in Azure -- Azure Batch https://azure.microsoft.com/en-us/services/batch/.
